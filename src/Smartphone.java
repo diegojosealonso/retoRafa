@@ -94,6 +94,6 @@ public class Smartphone {
 
     @Override
     public String toString() {
-        return this.marca + " " + this.modelo + " -Encendido: " + this.encendido + " batería restante: " + this.nivelBateria;
+        return this.marca + " " + this.modelo + " -Encendido: " + this.encendido + " batería restante: " + this.nivelBateria + "%";
     }
 }
