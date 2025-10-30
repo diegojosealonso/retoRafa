@@ -77,11 +77,11 @@ public class Smartphone {
     }
 
     public void encender() {
-        boolean encendido = true;
+        this.encendido = true;
     }
 
     public void apagar(){
-        boolean encendido = false;
+        this.encendido = false;
     }
 
     public void usar(int minutos){
